@@ -19,6 +19,6 @@ public class NewFeaturesTest {
   @Test
   void strintRepeat() {
     var str = "hoge".repeat(3);
-    assertEquals(str, "hogehogehoge");
+    assertEquals("hogehogehoge", str);
   }
 }
